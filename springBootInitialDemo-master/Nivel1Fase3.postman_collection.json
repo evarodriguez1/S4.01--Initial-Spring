@@ -1,0 +1,24 @@
+{
+	"info": {
+		"_postman_id": "73ed6fcb-1e14-4465-87fb-922b9c2235b2",
+		"name": "Nivel1Fase3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{puerto}}",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{puerto}}"
+				}
+			},
+			"response": []
+		}
+	]
+}
